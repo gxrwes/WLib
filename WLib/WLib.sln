@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.Test", "WLib.Test\WLib
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.ReportBuilder", "WLib.ReportBuilder\WLib.ReportBuilder.csproj", "{95B8E491-4C6F-4488-A8AF-200C03DBA503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wazor", "Wazor\Wazor.csproj", "{9636F322-9F06-405C-B2D8-EACE09B7BABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wazor", "Wazor\Wazor.csproj", "{9636F322-9F06-405C-B2D8-EACE09B7BABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.BlazorDemo", "WLib.BlazorDemo\WLib.BlazorDemo\WLib.BlazorDemo.csproj", "{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.BlazorDemo", "WLib.BlazorDemo\WLib.BlazorDemo\WLib.BlazorDemo.csproj", "{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.BlazorDemo.Client", "WLib.BlazorDemo\WLib.BlazorDemo.Client\WLib.BlazorDemo.Client.csproj", "{160764A4-5961-495B-9105-C446FF509C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.BlazorDemo.Client", "WLib.BlazorDemo\WLib.BlazorDemo.Client\WLib.BlazorDemo.Client.csproj", "{160764A4-5961-495B-9105-C446FF509C3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

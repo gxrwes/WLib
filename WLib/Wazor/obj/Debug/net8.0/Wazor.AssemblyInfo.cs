@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44fbac28519d2d3bbc96446d7f380e3d85d7da93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29f910aba3b2909f26894f893cd6867e0cd9b4df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

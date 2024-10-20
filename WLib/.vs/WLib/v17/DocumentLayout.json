@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\DEVD\\Repos\\WLib\\WLib\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|solutionrelative:wlib.blazordemo\\wlib.blazordemo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|solutionrelative:wlib.blazordemo\\wlib.blazordemo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|solutionrelative:wlib.blazordemo\\wlib.blazordemo\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\components\\pages\\wcomponents\\demomarkdowntextfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|solutionrelative:wlib.blazordemo\\wlib.blazordemo\\components\\pages\\wcomponents\\demomarkdowntextfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9636F322-9F06-405C-B2D8-EACE09B7BABB}|Wazor\\Wazor.csproj|c:\\devd\\repos\\wlib\\wlib\\wazor\\components\\markdowntextfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9636F322-9F06-405C-B2D8-EACE09B7BABB}|Wazor\\Wazor.csproj|solutionrelative:wazor\\components\\markdowntextfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\wlib.blazordemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|solutionrelative:wlib.blazordemo\\wlib.blazordemo\\wlib.blazordemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}|WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.blazordemo\\wlib.blazordemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -122,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 703,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,20 +154,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MarkdownParser.cs",
-              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\MarkdownParser.cs",
-              "RelativeDocumentMoniker": "WLib.Util\\Services\\MarkdownParser.cs",
-              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\MarkdownParser.cs",
-              "RelativeToolTip": "WLib.Util\\Services\\MarkdownParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:15:02.1Z",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\App.razor",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\App.razor",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\App.razor",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:25:08.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:18:36.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:18:27.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoMarkdownTextField.razor",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\WComponents\\DemoMarkdownTextField.razor",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\WComponents\\DemoMarkdownTextField.razor",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\WComponents\\DemoMarkdownTextField.razor",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\WComponents\\DemoMarkdownTextField.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:54:26.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WLib.BlazorDemo",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\WLib.BlazorDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-20T14:52:06.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "WinCopyService.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\WinCopyService.cs",
               "RelativeDocumentMoniker": "WLib.Util\\Services\\WinCopyService.cs",
@@ -155,12 +227,36 @@
               "RelativeToolTip": "WLib.Util\\Services\\WinCopyService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:01:31.572Z",
+              "WhenOpened": "2024-10-20T13:01:31.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:00:44.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "MarkdownParser.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\MarkdownParser.cs",
+              "RelativeDocumentMoniker": "WLib.Util\\Services\\MarkdownParser.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\MarkdownParser.cs",
+              "RelativeToolTip": "WLib.Util\\Services\\MarkdownParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:15:02.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FilecopyServiceUnitTest.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
               "RelativeDocumentMoniker": "WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
@@ -168,25 +264,11 @@
               "RelativeToolTip": "WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAmwKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:04:10.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T13:04:10.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T14:00:44.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "LinuxCopyService.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\LinuxCopyService.cs",
               "RelativeDocumentMoniker": "WLib.Util\\Services\\LinuxCopyService.cs",
@@ -194,12 +276,11 @@
               "RelativeToolTip": "WLib.Util\\Services\\LinuxCopyService.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:01:40.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T13:01:40.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FileLoaderService.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\FileLoaderService.cs",
               "RelativeDocumentMoniker": "WLib.Util\\Services\\FileLoaderService.cs",
@@ -207,12 +288,11 @@
               "RelativeToolTip": "WLib.Util\\Services\\FileLoaderService.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:49:24.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:49:24.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IMarkdownParser.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\IMarkdownParser.cs",
               "RelativeDocumentMoniker": "WLib.Util\\Services\\IMarkdownParser.cs",
@@ -220,12 +300,11 @@
               "RelativeToolTip": "WLib.Util\\Services\\IMarkdownParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:13:57.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:13:57.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "BlogPost.razor",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Components\\BlogPost.razor",
               "RelativeDocumentMoniker": "Wazor\\Components\\BlogPost.razor",
@@ -233,13 +312,12 @@
               "RelativeToolTip": "Wazor\\Components\\BlogPost.razor",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:53:39.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T13:53:39.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Wazor",
+              "DocumentIndex": 16,
+              "Title": "Wazor.csproj",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Wazor.csproj",
               "RelativeDocumentMoniker": "Wazor\\Wazor.csproj",
               "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Wazor.csproj",
@@ -251,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ImgGallery.razor",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Components\\ImgGallery.razor",
               "RelativeDocumentMoniker": "Wazor\\Components\\ImgGallery.razor",
@@ -259,12 +337,11 @@
               "RelativeToolTip": "Wazor\\Components\\ImgGallery.razor",
               "ViewState": "AgIAADYAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:51:13.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T13:51:13.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "StringTriple.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\StringTriple.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\StringTriple.cs",
@@ -272,12 +349,11 @@
               "RelativeToolTip": "Wazor\\Models\\StringTriple.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:08:38.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:08:38.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "BlogPostContent.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\BlogPostContent.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\BlogPostContent.cs",
@@ -285,12 +361,11 @@
               "RelativeToolTip": "Wazor\\Models\\BlogPostContent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:06:12.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:06:12.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "StringTouple.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\StringTouple.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\StringTouple.cs",
@@ -298,12 +373,11 @@
               "RelativeToolTip": "Wazor\\Models\\StringTouple.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:07:20.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:07:20.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProjectTypes.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\ProjectTypes.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\ProjectTypes.cs",
@@ -311,12 +385,11 @@
               "RelativeToolTip": "Wazor\\Models\\ProjectTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:05:35.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:05:35.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\Project.cs",
@@ -324,12 +397,11 @@
               "RelativeToolTip": "Wazor\\Models\\Project.cs",
               "ViewState": "AgIAABUAAAAAAAAAAIA0wB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:05:10.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:05:10.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "CodingProject.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\CodingProject.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\CodingProject.cs",
@@ -337,12 +409,11 @@
               "RelativeToolTip": "Wazor\\Models\\CodingProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:06:39.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:06:39.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "MediaItem.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\MediaItem.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\MediaItem.cs",
@@ -350,12 +421,11 @@
               "RelativeToolTip": "Wazor\\Models\\MediaItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:04:51.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:04:51.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Content.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Models\\Content.cs",
               "RelativeDocumentMoniker": "Wazor\\Models\\Content.cs",
@@ -363,12 +433,11 @@
               "RelativeToolTip": "Wazor\\Models\\Content.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:04:28.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:04:28.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\_Imports.razor",
@@ -376,12 +445,11 @@
               "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T14:01:25.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:01:25.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "IFileCopyService.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\IFileCopyService.cs",
               "RelativeDocumentMoniker": "WLib.Util\\Services\\IFileCopyService.cs",
@@ -389,12 +457,11 @@
               "RelativeToolTip": "WLib.Util\\Services\\IFileCopyService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:00:00.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T13:00:00.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "TestStep.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestStep.cs",
               "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestStep.cs",
@@ -402,12 +469,11 @@
               "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestStep.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:54:35.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:54:35.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "TestReport.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestReport.cs",
               "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestReport.cs",
@@ -415,12 +481,11 @@
               "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestReport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:54:29.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:54:29.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "TestCase.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestCase.cs",
               "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestCase.cs",
@@ -428,12 +493,11 @@
               "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:54:24.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:54:24.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "TestReportBuilder.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
               "RelativeDocumentMoniker": "WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
@@ -441,12 +505,11 @@
               "RelativeToolTip": "WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAmwFMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:51:32.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:51:32.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "ReportBuilderUnitTest.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
               "RelativeDocumentMoniker": "WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
@@ -454,12 +517,11 @@
               "RelativeToolTip": "WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:51:01.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:51:01.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "FileLoaderServiceUnitTest.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
               "RelativeDocumentMoniker": "WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
@@ -467,8 +529,7 @@
               "RelativeToolTip": "WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAowGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:48:41.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T12:48:41.432Z"
             }
           ]
         },
@@ -486,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.BlazorDemo\\WLib.BlazorDemo\\Program.cs",
               "RelativeDocumentMoniker": "WLib.BlazorDemo\\WLib.BlazorDemo\\Program.cs",
@@ -494,18 +555,17 @@
               "RelativeToolTip": "WLib.BlazorDemo\\WLib.BlazorDemo\\Program.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:29:33.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T14:29:33.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MarkdownTextField.razor",
               "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Components\\MarkdownTextField.razor",
               "RelativeDocumentMoniker": "Wazor\\Components\\MarkdownTextField.razor",
               "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Components\\MarkdownTextField.razor",
               "RelativeToolTip": "Wazor\\Components\\MarkdownTextField.razor",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-20T13:28:17.947Z",
               "EditorCaption": ""

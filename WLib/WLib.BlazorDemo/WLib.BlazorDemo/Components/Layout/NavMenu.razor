@@ -8,23 +8,124 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
+
+        <!-- Home Link -->
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
 
+        <!-- Documentation Link with collapsible submenus -->
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
+            <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#documentationSubMenu" role="button" aria-expanded="false" aria-controls="documentationSubMenu">
+                <span>
+                    <span class="bi bi-journal-text-nav-menu" aria-hidden="true"></span> Documentation
+                </span>
+                <span class="bi bi-chevron-right" id="doc-icon"></span>
+            </a>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
+            <!-- Collapsible submenu for Documentation -->
+            <div class="collapse" id="documentationSubMenu" data-bs-parent=".nav-scrollable">
+                <!-- Components Section -->
+                <a class="nav-link ms-3 d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#componentsSubMenu" role="button" aria-expanded="false" aria-controls="componentsSubMenu">
+                    <span>
+                        <span class="bi bi-box-nav-menu" aria-hidden="true"></span> Components
+                    </span>
+                    <span class="bi bi-chevron-right" id="comp-icon"></span>
+                </a>
+
+                <div class="collapse ms-4" id="componentsSubMenu" data-bs-parent="#documentationSubMenu">
+                    <div class="nav-item">
+                        <NavLink class="nav-link" href="/components/markdown-demo">
+                            <span class="bi bi-file-code-nav-menu" aria-hidden="true"></span> MarkdownTextField
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink class="nav-link" href="/components/img-gallery">
+                            <span class="bi bi-file-image-nav-menu" aria-hidden="true"></span> ImgGallery
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink class="nav-link" href="/components/blog-post">
+                            <span class="bi bi-file-text-nav-menu" aria-hidden="true"></span> BlogPost
+                        </NavLink>
+                    </div>
+                </div>
+
+                <!-- Services Section -->
+                <a class="nav-link ms-3 d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#servicesSubMenu" role="button" aria-expanded="false" aria-controls="servicesSubMenu">
+                    <span>
+                        <span class="bi bi-box-tools-nav-menu" aria-hidden="true"></span> Services
+                    </span>
+                    <span class="bi bi-chevron-right" id="serv-icon"></span>
+                </a>
+
+                <div class="collapse ms-4" id="servicesSubMenu" data-bs-parent="#documentationSubMenu">
+                    <div class="nav-item">
+                        <NavLink class="nav-link" href="/services/markdown-parser">
+                            <span class="bi bi-file-code-nav-menu" aria-hidden="true"></span> MarkdownParser
+                        </NavLink>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
 </div>
 
+<!-- JavaScript to toggle icons based on collapse state and persist state -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Load stored collapse states from localStorage
+        const docState = localStorage.getItem('documentationSubMenu') === 'true';
+        const compState = localStorage.getItem('componentsSubMenu') === 'true';
+        const servState = localStorage.getItem('servicesSubMenu') === 'true';
+
+        if (docState) {
+            new bootstrap.Collapse(document.getElementById('documentationSubMenu'), { toggle: true });
+            document.getElementById('doc-icon').classList.add('bi-chevron-down');
+        }
+
+        if (compState) {
+            new bootstrap.Collapse(document.getElementById('componentsSubMenu'), { toggle: true });
+            document.getElementById('comp-icon').classList.add('bi-chevron-down');
+        }
+
+        if (servState) {
+            new bootstrap.Collapse(document.getElementById('servicesSubMenu'), { toggle: true });
+            document.getElementById('serv-icon').classList.add('bi-chevron-down');
+        }
+
+        // Event listeners to update icon and store collapse state
+        const docSubMenu = document.getElementById('documentationSubMenu');
+        const compSubMenu = document.getElementById('componentsSubMenu');
+        const servSubMenu = document.getElementById('servicesSubMenu');
+
+        docSubMenu.addEventListener('show.bs.collapse', function () {
+            document.getElementById('doc-icon').classList.replace('bi-chevron-right', 'bi-chevron-down');
+            localStorage.setItem('documentationSubMenu', 'true');
+        });
+        docSubMenu.addEventListener('hide.bs.collapse', function () {
+            document.getElementById('doc-icon').classList.replace('bi-chevron-down', 'bi-chevron-right');
+            localStorage.setItem('documentationSubMenu', 'false');
+        });
+
+        compSubMenu.addEventListener('show.bs.collapse', function () {
+            document.getElementById('comp-icon').classList.replace('bi-chevron-right', 'bi-chevron-down');
+            localStorage.setItem('componentsSubMenu', 'true');
+        });
+        compSubMenu.addEventListener('hide.bs.collapse', function () {
+            document.getElementById('comp-icon').classList.replace('bi-chevron-down', 'bi-chevron-right');
+            localStorage.setItem('componentsSubMenu', 'false');
+        });
+
+        servSubMenu.addEventListener('show.bs.collapse', function () {
+            document.getElementById('serv-icon').classList.replace('bi-chevron-right', 'bi-chevron-down');
+            localStorage.setItem('servicesSubMenu', 'true');
+        });
+        servSubMenu.addEventListener('hide.bs.collapse', function () {
+            document.getElementById('serv-icon').classList.replace('bi-chevron-down', 'bi-chevron-right');
+            localStorage.setItem('servicesSubMenu', 'false');
+        });
+    });
+</script>

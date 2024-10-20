@@ -1,0 +1,64 @@
+﻿@page "/components/markdown-demo"
+@using Wazor.Components
+@rendermode InteractiveServer
+
+<h1>MarkdownTextField Documentation</h1>
+
+<!-- Navigation for easy section hopping -->
+<nav class="mt-3 mb-3">
+    <ul>
+        <li><a href="#name">Name</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#examples">Example Usages</a></li>
+        <li><a href="#tryitout">Try It Out</a></li>
+    </ul>
+</nav>
+
+<hr />
+
+<h2 id="name">Name</h2>
+<p>The <code>MarkdownTextField</code> component renders Markdown content as HTML using the <code>IMarkdownParser</code> service. It is used to display formatted Markdown text in a Blazor app.</p>
+
+<hr />
+
+<h2 id="properties">Properties</h2>
+<p>The <code>MarkdownTextField</code> component has the following properties:</p>
+<ul>
+    <li><strong>Content</strong> (string): The Markdown text that will be converted to HTML and displayed. This is the main input for the component.</li>
+</ul>
+
+<hr />
+
+<h2 id="examples">Example Usages</h2>
+<p>Below are some example usages of the <code>MarkdownTextField</code> component:</p>
+
+<pre><code>@exampleCode</code></pre>
+
+<hr />
+
+<h2 id="tryitout">Try It Out</h2>
+<p>This section allows you to interact with the <code>MarkdownTextField</code> component. Enter Markdown text below and see how it is rendered as HTML in real-time.</p>
+
+<div class="mb-3">
+    <label for="markdownInput" class="form-label">Enter Markdown:</label>
+    <textarea id="markdownInput" class="form-control" @bind="userInput" @bind:event="oninput" rows="6"></textarea>
+</div>
+
+<h4>Markdown Preview</h4>
+<MarkdownTextField Content="@userInput" />
+
+@code {
+    private string userInput = "# Sample Markdown\nThis is an interactive demo. You can enter your own markdown text above.";
+
+    private string exampleCode = @"
+    <!-- Basic usage with static Markdown content -->
+    <MarkdownTextField Content='## Example Header\nThis is a paragraph in Markdown.' />
+
+    <!-- Dynamic usage where the content comes from a variable -->
+    @code {
+        private string markdownContent = '# Dynamic Markdown\nThis content is provided by a variable.';
+
+        // Using the component with variable content
+        <MarkdownTextField Content='@markdownContent' />
+    }";
+}
