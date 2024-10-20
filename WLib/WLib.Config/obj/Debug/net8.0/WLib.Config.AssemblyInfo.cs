@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WLib.Config")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44fbac28519d2d3bbc96446d7f380e3d85d7da93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2771c05b045828308800b43f5b1a41ad27cfd567")]
 [assembly: System.Reflection.AssemblyProductAttribute("WLib.Config")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WLib.Config")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

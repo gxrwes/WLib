@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Wazorize\Wazorize.csproj" />
     <ProjectReference Include="..\..\Wazor\Wazor.csproj" />
     <ProjectReference Include="..\WLib.BlazorDemo.Client\WLib.BlazorDemo.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />

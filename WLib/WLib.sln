@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.Test", "WLib.Test\WLib
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.ReportBuilder", "WLib.ReportBuilder\WLib.ReportBuilder.csproj", "{95B8E491-4C6F-4488-A8AF-200C03DBA503}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wazor", "Wazor\Wazor.csproj", "{9636F322-9F06-405C-B2D8-EACE09B7BABB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.BlazorDemo", "WLib.BlazorDemo\WLib.BlazorDemo\WLib.BlazorDemo.csproj", "{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WLib.BlazorDemo.Client", "WLib.BlazorDemo\WLib.BlazorDemo.Client\WLib.BlazorDemo.Client.csproj", "{160764A4-5961-495B-9105-C446FF509C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wazorize", "Wazorize\Wazorize.csproj", "{2E2644A1-F03A-46EF-B67F-C509694FB8AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		{95B8E491-4C6F-4488-A8AF-200C03DBA503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B8E491-4C6F-4488-A8AF-200C03DBA503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B8E491-4C6F-4488-A8AF-200C03DBA503}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9636F322-9F06-405C-B2D8-EACE09B7BABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9636F322-9F06-405C-B2D8-EACE09B7BABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9636F322-9F06-405C-B2D8-EACE09B7BABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9636F322-9F06-405C-B2D8-EACE09B7BABB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBBA319-9FB0-4FB4-9B6C-6178779C8309}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{160764A4-5961-495B-9105-C446FF509C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160764A4-5961-495B-9105-C446FF509C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160764A4-5961-495B-9105-C446FF509C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2644A1-F03A-46EF-B67F-C509694FB8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2644A1-F03A-46EF-B67F-C509694FB8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2644A1-F03A-46EF-B67F-C509694FB8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2644A1-F03A-46EF-B67F-C509694FB8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -645,6 +645,22 @@
           "bin/placeholder/Wazor.dll": {}
         }
       },
+      "Wazorize/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.10",
+          "Microsoft.AspNetCore.Components.Web": "8.0.10",
+          "WLib.Config": "1.0.0",
+          "WLib.Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Wazorize.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wazorize.dll": {}
+        }
+      },
       "WLib.BlazorDemo.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1726,6 +1742,11 @@
       "path": "../../Wazor/Wazor.csproj",
       "msbuildProject": "../../Wazor/Wazor.csproj"
     },
+    "Wazorize/1.0.0": {
+      "type": "project",
+      "path": "../../Wazorize/Wazorize.csproj",
+      "msbuildProject": "../../Wazorize/Wazorize.csproj"
+    },
     "WLib.BlazorDemo.Client/1.0.0": {
       "type": "project",
       "path": "../WLib.BlazorDemo.Client/WLib.BlazorDemo.Client.csproj",
@@ -1746,7 +1767,8 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.8",
       "WLib.BlazorDemo.Client >= 1.0.0",
-      "Wazor >= 1.0.0"
+      "Wazor >= 1.0.0",
+      "Wazorize >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1782,6 +1804,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\DEVD\\Repos\\WLib\\WLib\\Wazorize\\Wazorize.csproj": {
+              "projectPath": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazorize\\Wazorize.csproj"
+            },
             "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Wazor.csproj": {
               "projectPath": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\Wazor.csproj"
             },

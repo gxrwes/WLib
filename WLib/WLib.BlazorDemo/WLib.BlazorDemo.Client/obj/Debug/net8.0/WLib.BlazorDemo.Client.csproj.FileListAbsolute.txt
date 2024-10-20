@@ -1,3 +1,13 @@
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.csproj.AssemblyReference.cache
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.AssemblyInfoInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.AssemblyInfo.cs
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.sourcelink.json
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.dll
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\refint\WLib.BlazorDemo.Client.dll
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
@@ -609,13 +619,6 @@ C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\icudt_CJK.dat
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\bin\Debug\net8.0\icudt_no_CJK.dat
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.csproj.AssemblyReference.cache
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.AssemblyInfoInputs.cache
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.AssemblyInfo.cs
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.csproj.CoreCompileInputs.cache
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.sourcelink.json
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -1023,7 +1026,4 @@ C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\compressed\ifeiu26rtd.gz
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\compressed\fveyapdap7.gz
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.Bla.04BF0101.Up2Date
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.dll
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\refint\WLib.BlazorDemo.Client.dll
-C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\WLib.BlazorDemo.Client.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo.Client\obj\Debug\net8.0\ref\WLib.BlazorDemo.Client.dll
