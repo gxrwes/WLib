@@ -1,0 +1,68 @@
+<!--BlogPost-->
+@using Wazor.Models
+
+<div class="blogpost-container" style="max-width:@MaxWidth;">
+    <h2 class="blogpost-title">@Title</h2>
+
+    @if (!string.IsNullOrEmpty(DateOfPublish) && !string.IsNullOrEmpty(Author))
+    {
+        <p class="blogpost-meta-info">Published on @DateOfPublish by @Author</p>
+    }
+
+    @if (JustSummary)
+    {
+        <ul class="chapter-list">
+            @for (var i = 0; i < Content.Count; i++)
+            {
+                var chapter = Content[i];
+                <li class="chapter-list-item">Chapter @(i + 1): @chapter.Item1</li>
+            }
+        </ul>
+    }
+    else
+    {
+        @foreach (var blogPostContent in Content)
+        {
+            <div class="chapter">
+                @if (!string.IsNullOrEmpty(blogPostContent.Item1))
+                {
+                    <h4 class="chapter-title">Chapter @(Content.IndexOf(blogPostContent) + 1): @blogPostContent.Item1</h4>
+                }
+
+                <MarkdownTextField Content="@blogPostContent.Item2" />
+            </div>
+        }
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public string Title { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Subtitle { get; set; } = string.Empty;
+
+    [Parameter, EditorRequired]
+    public string DateOfPublish { get; set; } = string.Empty;
+
+    [Parameter, EditorRequired]
+    public string Author { get; set; } = string.Empty;
+
+    [Parameter, EditorRequired]
+    public List<BlogPostContent> Content { get; set; } = new List<BlogPostContent>();
+
+    [Parameter]
+    public bool JustSummary { get; set; } = false;
+
+    [Parameter]
+    public string MaxWidth { get; set; } = "100%"; // New parameter for max width, default to full width
+
+    protected override void OnParametersSet()
+    {
+        // Set max width to 300px if in summary mode
+        if (JustSummary)
+        {
+            MaxWidth = "300px";
+        }
+    }
+}

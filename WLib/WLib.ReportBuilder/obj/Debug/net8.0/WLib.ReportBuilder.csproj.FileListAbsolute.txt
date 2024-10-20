@@ -6,6 +6,7 @@ C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.G
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.AssemblyInfoInputs.cache
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.AssemblyInfo.cs
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.sourcelink.json
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.dll
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\refint\WLib.ReportBuilder.dll
 C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.pdb

@@ -1,4 +1,10 @@
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_WLib.Test
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.csproj.AssemblyReference.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.AssemblyInfoInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.AssemblyInfo.cs
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.sourcelink.json
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\testhost.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\testhost.exe
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -9,6 +15,7 @@ C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.Test.runtimeconfig.json
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.Test.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.Test.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Castle.Core.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Markdig.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
@@ -114,11 +121,6 @@ C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.Config.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.ReportBuilder.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\WLib.Util.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.csproj.AssemblyReference.cache
-C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.AssemblyInfoInputs.cache
-C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.AssemblyInfo.cs
-C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.csproj.CoreCompileInputs.cache
 C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.csproj.Up2Date
 C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\WLib.Test.dll
 C:\DEVD\Repos\WLib\WLib\WLib.Test\obj\Debug\net8.0\refint\WLib.Test.dll

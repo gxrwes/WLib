@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.37.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[8.0.2, )"

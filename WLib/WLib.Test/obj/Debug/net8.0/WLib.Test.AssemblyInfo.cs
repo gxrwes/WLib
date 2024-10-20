@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WLib.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44fbac28519d2d3bbc96446d7f380e3d85d7da93")]
 [assembly: System.Reflection.AssemblyProductAttribute("WLib.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WLib.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

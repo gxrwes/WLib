@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using WLib.Util.Services;
+using Microsoft.Extensions.Logging;
 
 namespace WLib.Test.Util.Unit
 {
@@ -12,12 +13,19 @@ namespace WLib.Test.Util.Unit
     {
         private WinCopyService _winCopyService;
         private LinuxCopyService _linuxCopyService;
+        private Mock<ILogger<WinCopyService>> _winLoggerMock;
+        private Mock<ILogger<LinuxCopyService>> _linuxLoggerMock;
 
         [TestInitialize]
         public void Setup()
         {
-            _winCopyService = new WinCopyService();
-            _linuxCopyService = new LinuxCopyService();
+            // Mock the loggers
+            _winLoggerMock = new Mock<ILogger<WinCopyService>>();
+            _linuxLoggerMock = new Mock<ILogger<LinuxCopyService>>();
+
+            // Inject mocked loggers into services
+            _winCopyService = new WinCopyService(_winLoggerMock.Object);
+            _linuxCopyService = new LinuxCopyService(_linuxLoggerMock.Object);
         }
 
         // WinCopyService Tests
