@@ -24,3 +24,6 @@ C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\Wazor.dll
 C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\refint\Wazor.dll
 C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\Wazor.pdb
 C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\ref\Wazor.dll
+C:\DEVD\Repos\WLib\WLib\Wazor\bin\Debug\net8.0\Wazor.staticwebassets.runtime.json
+C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\scopedcss\Components\ImgGallery.razor.rz.scp.css
+C:\DEVD\Repos\WLib\WLib\Wazor\obj\Debug\net8.0\scopedcss\projectbundle\Wazor.bundle.scp.css

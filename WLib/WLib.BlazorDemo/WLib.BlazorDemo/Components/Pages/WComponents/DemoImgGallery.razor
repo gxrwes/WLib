@@ -1,0 +1,122 @@
+﻿@page "/components/image-gallery-demo"
+@using Wazor.Models
+@using Wazor.Components
+@rendermode InteractiveServer
+
+<h1>ImageGallery Documentation</h1>
+
+<!-- Navigation for easy section hopping -->
+<nav class="mt-3 mb-3">
+    <ul>
+        <li><a href="#name">Name</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#examples">Example Usages</a></li>
+        <li><a href="#tryitout">Try It Out</a></li>
+    </ul>
+</nav>
+
+<hr />
+
+<h2 id="name">Name</h2>
+<p>The <code>ImageGallery</code> component displays a gallery of images. You can control the image size, limit the number of displayed images, and randomize the image order.</p>
+
+<hr />
+
+<h2 id="properties">Properties</h2>
+<p>The <code>ImageGallery</code> component has the following properties:</p>
+<ul>
+    <li><strong>Images</strong> (List&lt;StringTouple&gt;): A list of images to display, where each item contains the image URL and description.</li>
+    <li><strong>ImageSize</strong> (string): The size of the images in the gallery. Defaults to "400px".</li>
+    <li><strong>OneSize</strong> (bool): If true, all images will be of the same size, otherwise they will adjust to fit.</li>
+    <li><strong>Randomize</strong> (bool): If true, the order of images is randomized.</li>
+    <li><strong>Limit</strong> (int): Limits the number of displayed images. A value of 0 means no limit.</li>
+</ul>
+
+<hr />
+
+<h2 id="examples">Example Usages</h2>
+<p>Below are some example usages of the <code>ImageGallery</code> component:</p>
+
+<pre><code>@exampleCode</code></pre>
+
+<hr />
+
+<h2 id="tryitout">Try It Out</h2>
+
+<div class="mb-3">
+    <label>Image Size:</label>
+    <input type="text" @bind="imageSize" class="form-control" placeholder="Enter image size (e.g., 400px)" />
+</div>
+
+<div class="mb-3">
+    <label>Randomize Order:</label>
+    <input type="checkbox" @bind="randomizeImages" />
+</div>
+
+<div class="mb-3">
+    <label>Limit (0 for no limit):</label>
+    <input type="number" @bind="imageLimit" class="form-control" min="0" />
+</div>
+
+<h4>ImageGallery Preview</h4>
+<ImgGallery Images="@GetImageList()" ImageSize="@imageSize" OneSize="false" Randomize="@randomizeImages" Limit="@imageLimit" />
+
+@code {
+    private string baseUrl = "/img/";
+
+    // Image size default
+    private string imageSize = "40px";
+    
+    // Option to randomize images
+    private bool randomizeImages = false;
+
+    // Option to limit images
+    private int imageLimit = 0;
+
+    // Image list to be initialized in OnInitialized
+    private List<StringTouple> imageList;
+
+    // Function to get the image list based on randomization and limit
+    private List<StringTouple> GetImageList()
+    {
+        var images = imageList.ToList(); // Create a copy of the image list
+
+        // Apply randomization if requested
+        if (randomizeImages)
+        {
+            var rng = new Random();
+            images = images.OrderBy(_ => rng.Next()).ToList();
+        }
+
+        // Apply limit if a limit is set
+        if (imageLimit > 0 && imageLimit < images.Count)
+        {
+            images = images.Take(imageLimit).ToList();
+        }
+
+        return images;
+    }
+
+    protected override void OnInitialized()
+    {
+        // Initialize the image list using the baseUrl
+        imageList = new List<StringTouple>
+        {
+            new StringTouple($"{baseUrl}image_1.png", "Image 1"),
+            new StringTouple($"{baseUrl}image_2.png", "Image 2"),
+            new StringTouple($"{baseUrl}image_3.png", "Image 3"),
+            new StringTouple($"{baseUrl}image_4.png", "Image 4"),
+            new StringTouple($"{baseUrl}image_5.png", "Image 5"),
+            new StringTouple($"{baseUrl}image_6.png", "Image 6"),
+            new StringTouple($"{baseUrl}image_7.png", "Image 7"),
+            new StringTouple($"{baseUrl}image_8.png", "Image 8"),
+            new StringTouple($"{baseUrl}image_9.png", "Image 9"),
+            new StringTouple($"{baseUrl}image_10.png", "Image 10")
+        };
+    }
+
+    // Example usage in the documentation section
+    private string exampleCode = @"
+    <!-- Basic ImageGallery usage -->
+    <ImageGallery Images='@imageList' ImageSize='400px' OneSize='false' Randomize='false' Limit='0' />";
+}

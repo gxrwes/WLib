@@ -1,0 +1,94 @@
+﻿@page "/components/blog-post-demo"
+@using Wazor.Models
+@rendermode InteractiveServer
+
+<h1>BlogPost Documentation</h1>
+
+<!-- Navigation for easy section hopping -->
+<nav class="mt-3 mb-3">
+    <ul>
+        <li><a href="#name">Name</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#examples">Example Usages</a></li>
+        <li><a href="#tryitout">Try It Out</a></li>
+    </ul>
+</nav>
+
+<hr />
+
+<h2 id="name">Name</h2>
+<p>The <code>BlogPost</code> component renders a blog post layout with chapters and a summary view option. It can display detailed content with Markdown formatting using the <code>MarkdownTextField</code> component.</p>
+
+<hr />
+
+<h2 id="properties">Properties</h2>
+<p>The <code>BlogPost</code> component has the following properties:</p>
+<ul>
+    <li><strong>Title</strong> (string, required): The title of the blog post.</li>
+    <li><strong>Subtitle</strong> (string): An optional subtitle for the blog post.</li>
+    <li><strong>DateOfPublish</strong> (string, required): The publication date of the blog post.</li>
+    <li><strong>Author</strong> (string, required): The author of the blog post.</li>
+    <li><strong>Content</strong> (List&lt;BlogPostContent&gt;, required): A list of chapters where each item contains the chapter title and Markdown content.</li>
+    <li><strong>JustSummary</strong> (bool): Displays only the chapter titles in a summary mode.</li>
+    <li><strong>MaxWidth</strong> (string): Sets the maximum width of the component. Defaults to "100%".</li>
+</ul>
+
+<hr />
+
+<h2 id="examples">Example Usages</h2>
+<p>Below are some example usages of the <code>BlogPost</code> component:</p>
+
+<pre><code>@exampleCode</code></pre>
+
+<hr />
+
+<h2 id="tryitout">Try It Out</h2>
+
+<div class="mb-3">
+    <label>Blog Title:</label>
+    <input type="text" @bind="blogTitle" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label>Blog Subtitle:</label>
+    <input type="text" @bind="blogSubtitle" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label>Author:</label>
+    <input type="text" @bind="blogAuthor" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label>Published Date:</label>
+    <input type="date" @bind="publishDate" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label>Just Summary:</label>
+    <input type="checkbox" @bind="justSummary" />
+</div>
+
+<h4>BlogPost Preview</h4>
+<BlogPost Title="@blogTitle" Subtitle="@blogSubtitle" DateOfPublish="@publishDate.ToString("yyyy-MM-dd")" Author="@blogAuthor" Content="@blogContent" JustSummary="@justSummary" MaxWidth="100%" />
+
+@code {
+    private string blogTitle = "Sample Blog Post";
+    private string blogSubtitle = "A demonstration of the BlogPost component.";
+    private string blogAuthor = "John Doe";
+    private DateTime publishDate = DateTime.Now; // Corrected to use DateTime
+    private bool justSummary = false;
+
+    private List<BlogPostContent> blogContent = new List<BlogPostContent>
+    {
+        new BlogPostContent("Introduction", "# Welcome to the blog post\nThis is the first chapter content."),
+        new BlogPostContent("Main Content", "# Main Content\nHere goes the detailed description."),
+        new BlogPostContent("Conclusion", "# Conclusion\nWrapping up the post.")
+    };
+
+    private string exampleCode = @"
+    <!-- Basic BlogPost usage -->
+    <BlogPost Title='Sample Blog Post' Subtitle='A demonstration of the BlogPost component.'
+              DateOfPublish='2024-10-20' Author='John Doe' JustSummary='false'
+              Content='@blogContent' />";
+}

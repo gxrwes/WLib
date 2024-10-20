@@ -82,3 +82,4 @@ C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo\obj\Debug\net8.0\refint\
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo\obj\Debug\net8.0\WLib.BlazorDemo.pdb
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo\obj\Debug\net8.0\WLib.BlazorDemo.genruntimeconfig.cache
 C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo\obj\Debug\net8.0\ref\WLib.BlazorDemo.dll
+C:\DEVD\Repos\WLib\WLib\WLib.BlazorDemo\WLib.BlazorDemo\bin\Debug\net8.0\Wazor.staticwebassets.runtime.json

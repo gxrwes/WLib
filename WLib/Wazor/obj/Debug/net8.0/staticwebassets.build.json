@@ -1,11 +1,50 @@
 {
   "Version": 1,
-  "Hash": "a9ih4cPwNO0u05NFWmf/4t+7NXCrLVw1EITsEcPFY88=",
+  "Hash": "DULXDedVTryu4P2pgXXsyRk1mHO/6l2d63fbNCz3ADE=",
   "Source": "Wazor",
   "BasePath": "_content/Wazor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Wazor.styles.css",
+      "SourceId": "Wazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Wazor",
+      "RelativePath": "Wazor.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Wazor.styles.css"
+    },
+    {
+      "Identity": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Wazor.bundle.scp.css",
+      "SourceId": "Wazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Wazor",
+      "RelativePath": "Wazor.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\DEVD\\Repos\\WLib\\WLib\\Wazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Wazor.bundle.scp.css"
+    }
+  ]
 }
