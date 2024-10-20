@@ -1,0 +1,570 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
+      "Moq/4.20.72": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {}
+        }
+      },
+      "MSTest.TestFramework/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/net6.0/MSTest.TestFramework.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Castle.Core/5.1.1": {
+      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "type": "package",
+      "path": "castle.core/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.1.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "sha512": "nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Moq/4.20.72": {
+      "sha512": "EA55cjyNn8eTNWrgrdZJH5QLFp2L43oxl1tlkoYUKIE9pRwL784OWiTXeCV5ApS+AMYEAlt7Fo03A2XfouvHmQ==",
+      "type": "package",
+      "path": "moq/4.20.72",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Moq.dll",
+        "lib/net6.0/Moq.dll",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.1/Moq.dll",
+        "moq.4.20.72.nupkg.sha512",
+        "moq.nuspec",
+        "readme.md"
+      ]
+    },
+    "MSTest.TestFramework/3.1.1": {
+      "sha512": "3rjkGxciNHHmPW8cl1/QVIYjOpfptjmAH5JrLBw+dnMTYDoweg3I579N7OIbar3Zd3q9dfWFrCy2LEV/AmPn3A==",
+      "type": "package",
+      "path": "mstest.testframework/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net6.0/MSTest.TestFramework.targets",
+        "build/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "build/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "build/net6.0/winui/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "build/net6.0/winui/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net462/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net6.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard2.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "mstest.testframework.3.1.1.nupkg.sha512",
+        "mstest.testframework.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.EventLog.dll",
+        "lib/net461/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MSTest.TestFramework >= 3.1.1",
+      "Microsoft.Extensions.Logging.Abstractions >= 8.0.2",
+      "Moq >= 4.20.72",
+      "Newtonsoft.Json >= 13.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\WLib.Util.csproj",
+      "projectName": "WLib.Util",
+      "projectPath": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\WLib.Util.csproj",
+      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+      "outputPath": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.2, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.72, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

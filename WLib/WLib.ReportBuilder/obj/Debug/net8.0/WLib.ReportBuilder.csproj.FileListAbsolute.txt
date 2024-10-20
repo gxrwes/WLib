@@ -1,0 +1,12 @@
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\bin\Debug\net8.0\WLib.ReportBuilder.deps.json
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\bin\Debug\net8.0\WLib.ReportBuilder.dll
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\bin\Debug\net8.0\WLib.ReportBuilder.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.csproj.AssemblyReference.cache
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.AssemblyInfoInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.AssemblyInfo.cs
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.dll
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\refint\WLib.ReportBuilder.dll
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\WLib.ReportBuilder.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.ReportBuilder\obj\Debug\net8.0\ref\WLib.ReportBuilder.dll

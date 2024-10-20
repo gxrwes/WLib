@@ -1,0 +1,11 @@
+C:\DEVD\Repos\WLib\WLib\WLib.Config\bin\Debug\net8.0\WLib.Config.deps.json
+C:\DEVD\Repos\WLib\WLib\WLib.Config\bin\Debug\net8.0\WLib.Config.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Config\bin\Debug\net8.0\WLib.Config.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.AssemblyInfoInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.AssemblyInfo.cs
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\refint\WLib.Config.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\WLib.Config.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.Config\obj\Debug\net8.0\ref\WLib.Config.dll

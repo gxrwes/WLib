@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEVD\\Repos\\WLib\\WLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.test\\util\\unit\\filecopyserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|solutionrelative:wlib.test\\util\\unit\\filecopyserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.util\\services\\wincopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|solutionrelative:wlib.util\\services\\wincopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.util\\services\\linuxcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|solutionrelative:wlib.util\\services\\linuxcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.util\\services\\ifilecopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|solutionrelative:wlib.util\\services\\ifilecopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.test\\reportbuilder\\unit\\reportbuilderunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|solutionrelative:wlib.test\\reportbuilder\\unit\\reportbuilderunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.reportbuilder\\services\\testreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|solutionrelative:wlib.reportbuilder\\services\\testreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.reportbuilder\\models\\teststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|solutionrelative:wlib.reportbuilder\\models\\teststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.reportbuilder\\models\\testreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|solutionrelative:wlib.reportbuilder\\models\\testreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.reportbuilder\\models\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B8E491-4C6F-4488-A8AF-200C03DBA503}|WLib.ReportBuilder\\WLib.ReportBuilder.csproj|solutionrelative:wlib.reportbuilder\\models\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.test\\util\\unit\\fileloaderserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17B66A-8FF8-43F7-9342-4FC46373CA72}|WLib.Test\\WLib.Test.csproj|solutionrelative:wlib.test\\util\\unit\\fileloaderserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|c:\\devd\\repos\\wlib\\wlib\\wlib.util\\services\\fileloaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40286452-1991-425D-A7D2-B727D174AAF8}|WLib.Util\\WLib.Util.csproj|solutionrelative:wlib.util\\services\\fileloaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 703,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilecopyServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
+              "RelativeToolTip": "WLib.Test\\Util\\Unit\\FilecopyServiceUnitTest.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:04:10.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinuxCopyService.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\LinuxCopyService.cs",
+              "RelativeDocumentMoniker": "WLib.Util\\Services\\LinuxCopyService.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\LinuxCopyService.cs",
+              "RelativeToolTip": "WLib.Util\\Services\\LinuxCopyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:01:40.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinCopyService.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\WinCopyService.cs",
+              "RelativeDocumentMoniker": "WLib.Util\\Services\\WinCopyService.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\WinCopyService.cs",
+              "RelativeToolTip": "WLib.Util\\Services\\WinCopyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:01:31.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFileCopyService.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\IFileCopyService.cs",
+              "RelativeDocumentMoniker": "WLib.Util\\Services\\IFileCopyService.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\IFileCopyService.cs",
+              "RelativeToolTip": "WLib.Util\\Services\\IFileCopyService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:00:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestStep.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestStep.cs",
+              "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestStep.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestStep.cs",
+              "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:54:35.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestReport.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestReport.cs",
+              "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestReport.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestReport.cs",
+              "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:54:29.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestCase.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestCase.cs",
+              "RelativeDocumentMoniker": "WLib.ReportBuilder\\Models\\TestCase.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Models\\TestCase.cs",
+              "RelativeToolTip": "WLib.ReportBuilder\\Models\\TestCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:54:24.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestReportBuilder.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
+              "RelativeDocumentMoniker": "WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
+              "RelativeToolTip": "WLib.ReportBuilder\\Services\\TestReportBuilder.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:51:32.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportBuilderUnitTest.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
+              "RelativeDocumentMoniker": "WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
+              "RelativeToolTip": "WLib.Test\\ReportBuilder\\Unit\\ReportBuilderUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:51:01.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileLoaderService.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\FileLoaderService.cs",
+              "RelativeDocumentMoniker": "WLib.Util\\Services\\FileLoaderService.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Util\\Services\\FileLoaderService.cs",
+              "RelativeToolTip": "WLib.Util\\Services\\FileLoaderService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:49:24.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileLoaderServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
+              "ToolTip": "C:\\DEVD\\Repos\\WLib\\WLib\\WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
+              "RelativeToolTip": "WLib.Test\\Util\\Unit\\FileLoaderServiceUnitTest.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:48:41.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 664,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

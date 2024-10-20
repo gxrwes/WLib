@@ -1,0 +1,15 @@
+C:\DEVD\Repos\WLib\WLib\WLib.Util\bin\Debug\net8.0\WLib.Util.deps.json
+C:\DEVD\Repos\WLib\WLib\WLib.Util\bin\Debug\net8.0\WLib.Util.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Util\bin\Debug\net8.0\WLib.Util.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.Util\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Util\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.csproj.AssemblyReference.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.AssemblyInfoInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.AssemblyInfo.cs
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.csproj.CoreCompileInputs.cache
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.csproj.Up2Date
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\refint\WLib.Util.dll
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\WLib.Util.pdb
+C:\DEVD\Repos\WLib\WLib\WLib.Util\obj\Debug\net8.0\ref\WLib.Util.dll
